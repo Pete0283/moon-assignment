@@ -1,0 +1,192 @@
+@charset "utf-8";
+
+/***********************************
+		REFERENCES
+font-sizes
+6.854rem
+4.236rem
+2.618rem
+1.618rem
+1rem
+0.618rem
+
+font-families
+Droid Serif, Droid Sans
+
+colors
+#000000
+#222222
+#333333
+#D4D4D4
+#CC3300
+#BADA55
+#FFFFFF
+plus the shadow for the text
+
+
+***********************************/
+
+*{
+	padding:9px;
+	margin: 4px;
+}
+
+/***********************************
+		DEFAULTS
+***********************************/
+body{
+	background-color: #222;
+}
+h1, h2, h3, h4{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+h1{
+    color: white;
+    font-size: 125px;
+    max-width: 50%;
+    min-width: 30%;
+    max-height: 500px;
+    padding: 0px;
+    text-align:center;
+    text-shadow: 1px 1px 1px #000, 
+               3px 3px 5px #AF4035;
+    float:top left;
+    
+}
+h2{
+	text-shadow: 1px 1px 1px #000, 
+               3px 3px 5px black;
+}
+h3{
+	text-shadow: 1px 1px 1px #000, 
+               3px 3px 5px black;
+}
+h4{
+	
+}
+p, li, a{
+	font-family: 'PT Sans', sans-serif;
+    line-height: 1.3/* you need a font stack here */
+}
+img{
+	width:50%;
+	max-width: 50%;
+    max-height: 400px;
+}
+ul{
+	list-style-type: none;
+     width: 100%;
+    height: 25%;
+    margin: -22px;
+    background-color:#525252;
+    color: #CD5B45;
+}
+a:link{color: #FF4500;}, a:visited{
+	transition: all 0.8s linear;
+    color: #FF4500;
+}
+a:hover, a:active, a:focus{
+	text-decoration: underline;
+}
+
+/***********************************
+		LAYOUT
+***********************************/
+.wrapper{
+	width:90%;
+	max-width: 1020px;
+	min-width: 400px;
+	margin:0 auto 2.0rem;
+	background-color: #d4d4d4;
+    min-height: 1000px;
+    max-height: 1996px;
+}
+.header{
+	background-color: #000;
+    min-height: 409px;
+}
+.main{
+	
+}
+.footer{
+    height: 260px;
+    max-width: 1500px;
+    min-width: 720px;
+    border-style: solid;
+    border-width: 2px;
+    background-color: #555555;
+    margin: 9px;
+    
+    
+    
+}
+
+/***********************************
+		LINKS 
+-for any that are different than the default
+***********************************/
+
+.footer a:link{color:#FF4500;},
+.footer a:visited{color:#FF4500;
+}
+.footer a:hover{color: #FF4500},
+.footer a:active {color:#FF4500},
+.footer a:focus{
+	
+}
+
+
+/***********************************
+		CONTENT
+***********************************/
+.header h1{
+    float: top;
+    line-height: 90%;
+    max-width: 50%;
+}
+.main h2{
+    color: #AF4035;
+    font-size: 50px;
+	
+}
+.main h3{
+	color: #AF4035;
+    font-size: 50px;
+}
+.main p{
+	
+}
+.main img{
+	width: 20%;
+    margin: 10px;
+    float: left;
+}
+.left{
+	float:right;
+	margin-right:1px;
+	margin-bottom: 10px;
+    margin-top: --25px;
+}
+.footer p{
+    width: 50%;
+    height: 5%;
+    
+}
+.footer ul1{
+    width: 50%;
+    float: left;
+    list-style-type: none;
+    text-align: left;
+    margin: 15px
+    
+    /* make these 50% the width of the footer */
+}
+.footer ul2{
+    width: 50%;
+    float: top right;
+    color:#CD5B45;
+    list-style-type: none;
+    text-align: left;
+    margin: 15px;
+}
+
